@@ -1,5 +1,9 @@
 AOS.init();
 
+function warning(){
+    swal("Wait!", "This page is under development!", "warning");
+}
+
 console.log(window.pageYOffset)
 
 var previousScrollPos = window.pageYOffset;
